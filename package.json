@@ -1,0 +1,30 @@
+{
+  "name": "top-of-block-auction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sells the right to trade first in a block, and gives the proceeds to the liquidity providers who are being traded against.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/top-of-block-auction.git"
+  },
+  "homepage": "https://top-of-block-auction.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "mev",
+    "auction",
+    "order-flow",
+    "lp-economics",
+    "no-admin"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}
